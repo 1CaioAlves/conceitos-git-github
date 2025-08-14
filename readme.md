@@ -20,3 +20,14 @@ Para verificar a situação do repositório (pasta), usamos o status a qualquer 
 git status
 ```
 
+Ele prepara o arquivo para ser commitado. Todos os arquivos que o status aparecer como vermelho, deve ser usado esse comando.
+```bash
+git add . (o ponto serve para adicionar todas as pendências)
+```
+
+Para salvar e atualizar as novas adições, usamos
+**IMPORANTE:** Realizar sempre no final de algum trabalho ou caso estiver trabalhando com algo sensível, salvar sempre.
+```bash
+git commit -m "mensagem para lembrar do que fez"
+```
+
