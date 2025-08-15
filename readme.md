@@ -39,3 +39,13 @@ Para salvar e atualizar as novas adições, usamos
 git commit -m "mensagem para lembrar do que fez"
 ```
 
+Para baixar as alterações que estão apenas no Github utilizamos o pull.
+**IMPORTANTE:** Sempre deve baixar a ultima versão da nuvem antes de enviar a atual do computador
+```bash
+git pull
+```
+
+Para enviar os commits do pc para o Github utilizamos o push.
+```bash
+git push
+```
